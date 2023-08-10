@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(250,240,230);
+    margin: 0px;
+
+}
+.magzineName{
+    text-align: center;
+    font-family: 'Old London Alternate';
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.header{
+    text-align: center;
+    background-color: #e9e9e9;
+    margin: 0px;
+    padding: 20px 10px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header a{
+    padding: 15px 20px;
+    color: black;
+}
+
+.header a:hover {
+    background-color: #a9a9a9;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+}
+  
+.articleTitle{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Palatino Linotype';
+}
+.articleSubtitle{
+    font-weight: lighter;
+    font-style: italic;
+    color: #767676;
+    margin-left: 5px;
+
+}
+.author{
+    color: black;
+    font-size: 13px;
+
+}
+.date{
+    color: rgb(84, 84, 84);
+    font-size: 10px;
+    
+}
+.article-container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.paragraph{
+    font-size: 18px;
+    line-height: 1.6;
+}
+.hugeLetter {
+    font-size: 60px;
+    font-weight: bold;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: -10px;
+    line-height: 0.8;
+  }
+.image{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0px;
+}
+.imageCaption{
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    color: #767676;
+}
+.audioStyle{
+    background-color: #a9a9a9;
+    
+}
+.footerClass{
+    max-width:100%;
+    height: 10rem;
+    background-color: #d2d0d0;
+    text-align: center;
+    font-size: 30px;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+ /* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+} 
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
