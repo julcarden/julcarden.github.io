@@ -55,7 +55,7 @@ body{
     
 }
 .article-container{
-    max-width: 500px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0px 20px;
 }
@@ -72,7 +72,7 @@ body{
     line-height: 0.8;
   }
 .image{
-    max-width: 540px;
+    max-width: 900px;
     margin: auto;
     padding: auto;
     class: center;
